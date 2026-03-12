@@ -1,0 +1,119 @@
+﻿node.exe : 
+[31mΓ£ù[39m Build 
+failed in 630ms
+At C:\Program Files\nod
+ejs\npm.ps1:29 char:3
++   & $NODE_EXE 
+$NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: ([31mΓ£ù[39m   
+  Build failed in 6    
+30ms:String) [], R    
+emoteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+[31merror during 
+build:
+[31m[vite:css] 
+[postcss] It looks 
+like you're trying to 
+use `tailwindcss` 
+directly as a PostCSS 
+plugin. The PostCSS 
+plugin has moved to a 
+separate package, so 
+to continue using 
+Tailwind CSS with 
+PostCSS you'll need to 
+install 
+`@tailwindcss/postcss` 
+and update your 
+PostCSS 
+configuration.[31m
+file: [36mC:/Users/use
+r/Desktop/band 
+shi/band site/test-anti
+gravity/bayu_winds_orch
+estra_website/src/index
+.css:undefined:NaN[31m
+    at at (C:\Users\use
+r\Desktop\band 
+shi\band site\test-anti
+gravity\bayu_winds_orch
+estra_website\node_modu
+les\tailwindcss\dist\li
+b.js:38:1643)
+    at 
+LazyResult.runOnRoot (C
+:\Users\user\Desktop\ba
+nd shi\band site\test-a
+ntigravity\bayu_winds_o
+rchestra_website\node_m
+odules\postcss\lib\lazy
+-result.js:361:16)
+    at 
+LazyResult.runAsync (C:
+\Users\user\Desktop\ban
+d shi\band site\test-an
+tigravity\bayu_winds_or
+chestra_website\node_mo
+dules\postcss\lib\lazy-
+result.js:290:26)
+    at async 
+runPostCSS (file:///C:/
+Users/user/Desktop/band
+%20shi/band%20site/test
+-antigravity/bayu_winds
+_orchestra_website/node
+_modules/vite/dist/node
+/chunks/config.js:30145
+:19)
+    at async 
+compilePostCSS (file://
+/C:/Users/user/Desktop/
+band%20shi/band%20site/
+test-antigravity/bayu_w
+inds_orchestra_website/
+node_modules/vite/dist/
+node/chunks/config.js:3
+0129:6)
+    at async 
+compileCSS (file:///C:/
+Users/user/Desktop/band
+%20shi/band%20site/test
+-antigravity/bayu_winds
+_orchestra_website/node
+_modules/vite/dist/node
+/chunks/config.js:30059
+:26)
+    at async 
+Object.handler (file://
+/C:/Users/user/Desktop/
+band%20shi/band%20site/
+test-antigravity/bayu_w
+inds_orchestra_website/
+node_modules/vite/dist/
+node/chunks/config.js:2
+9592:54)
+    at async transform 
+(file:///C:/Users/user/
+Desktop/band%20shi/band
+%20site/test-antigravit
+y/bayu_winds_orchestra_
+website/node_modules/ro
+llup/dist/es/shared/nod
+e-entry.js:21269:16)
+    at async ModuleLoad
+er.addModuleSource (fil
+e:///C:/Users/user/Desk
+top/band%20shi/band%20s
+ite/test-antigravity/ba
+yu_winds_orchestra_webs
+ite/node_modules/rollup
+/dist/es/shared/node-en
+try.js:21497:36)[39m
